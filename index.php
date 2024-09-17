@@ -1,7 +1,11 @@
 <?php
 
 require_once 'vendor/autoload.php';
-use App\classes\Auth;
+use App\classes\Home;
 
-$auth = new Auth();
-$auth->index();
+Home::bitm();
+
+
+//$home = new Home();
+//echo $home->index() ;
+

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/core-php_authentication_with-update.iml" filepath="$PROJECT_DIR$/.idea/core-php_authentication_with-update.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/php-basic-oop_practice.iml" filepath="$PROJECT_DIR$/.idea/php-basic-oop_practice.iml" />
     </modules>
   </component>
 </project>

@@ -1,45 +1,27 @@
 <?php
 
-
 namespace App\classes;
 
 
 class User
 {
-    public $users = [];
+     public $username = 'admin';
+     protected $password = '123123';
+     private $accessLabel = 'Super Admin';
 
-    public function __construct()
+     public function add()
+     {
+         echo 'in add';
+     }
+
+     protected function delete()
+     {
+         echo 'in delete';
+     }
+
+    private function edit()
     {
-        $this->users = [
-            0 => [
-                'id'         => 1,
-                'name'       => 'Jannatul Nayeem',
-                'email'      => 'jannatulnayeem333@gmail.com',
-                'password'   => 123123
-            ],
-            1 => [
-                'id'         => 2,
-                'name'       => 'Ahasan Limon',
-                'email'      => 'ahasanlimon444@gmail.com',
-                'password'   => 123456
-            ],
-            2 => [
-                'id'         => 3,
-                'name'       => 'Arham Ahmed',
-                'email'      => 'arham@gmail.com',
-                'password'   => 789789
-            ],
-            3 => [
-                'id'         => 4,
-                'name'       => 'Kabir Hoshain',
-                'email'      => 'kabir@gmail.com',
-                'password'   => 999999
-            ],
-        ];
+        echo 'in edit';
     }
 
-    public function getAllUser()
-    {
-        return $this->users;
-    }
 }
